@@ -32,7 +32,7 @@ The script *analyse.sh* validates all epubs in the *build* directory with [Epubc
 
 ## Description of test files
 
-|File name|Epub version|Description|Epubcheck output|
+|File name|Epub version|Description|Epubcheck (3,4) output|
 |:--|:--|:--|:--|
 |[epub20_minimal.epub](build/epub20_minimal.epub?raw=true)|2|Basic file with one text resource and one image|[3](epubcheckout/3.0.1/epub20_minimal.xml),[4](epubcheckout/4.0.0-alpha11/epub20_minimal.xml)|
 |[epub20_minimal_encryption.epub](build/epub20_minimal_encryption.epub?raw=true)|2|Includes encryption.xml resource in `META-INF`, indicating that main text resource is encrypted (text resource is not *actually* encrypted, BTW)|[3](epubcheckout/3.0.1/epub20_minimal_encryption.xml),[4](epubcheckout/4.0.0-alpha11/epub20_minimal_encryption.xml)|
