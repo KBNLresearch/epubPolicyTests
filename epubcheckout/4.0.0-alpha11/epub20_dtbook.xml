@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jhove xmlns="http://hul.harvard.edu/ois/xml/ns/jhove" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="epubcheck" release="4.0.0-alpha11" date="2014-09-12">
- <date>2015-03-10T12:41:38+01:00</date>
+ <date>2015-03-16T13:53:37+01:00</date>
  <repInfo uri="epub20_dtbook.epub">
   <created>2007-08-09T17:30:44Z</created>
   <format>application/epub+zip</format>
   <version>2.0</version>
-  <status>Not well-formed</status>
-  <messages>
-   <message>RSC-005, ERROR, [Error while parsing file 'value of attribute "version" is invalid; must be equal to "2005-2"'.], OEBPS/hauy-2005-1.xml (4-88)</message>
-  </messages>
+  <status>Well-formed</status>
   <mimeType>application/epub+zip</mimeType>
   <properties>
    <property>

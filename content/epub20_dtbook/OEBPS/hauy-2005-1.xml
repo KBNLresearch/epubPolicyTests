@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE dtbook PUBLIC "-//NISO//DTD dtbook 2005-1//EN" "http://www.daisy.org/z3986/2005/dtbook-2005-1.dtd" >
+<!DOCTYPE dtbook PUBLIC "-//NISO//DTD dtbook 2005-1//EN" "http://www.daisy.org/z3986/2005/dtbook-2005-2.dtd" >
 <?xml-stylesheet href="dtbook.2005.basic.css" type="text/css"?>
-<dtbook xmlns="http://www.daisy.org/z3986/2005/dtbook/" version="2005-1" xml:lang="en">
+<dtbook xmlns="http://www.daisy.org/z3986/2005/dtbook/" version="2005-2" xml:lang="en">
 	<head>
 		<meta content="Valentin Haüy - the father of the education for the blind" name="dc:Title" />
 		<meta content="Beatrice Christensen Sköld" name="dc:Creator" />
