@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jhove xmlns="http://hul.harvard.edu/ois/xml/ns/jhove" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="epubcheck" release="3.0.1" date="2013-05-10">
- <date>2015-03-16T13:53:57+01:00</date>
+ <date>2015-06-02T17:03:21+02:00</date>
  <repInfo uri="epub20_foreign_resource_no_fallback.epub">
-  <created>2015-03-03T17:12:58Z</created>
+  <created>2015-06-02T16:34:06Z</created>
   <format>application/epub+zip</format>
   <version>2.0</version>
   <status>Not well-formed</status>
@@ -15,7 +15,7 @@
    <property><name>Language</name><values arity="Scalar" type="String"><value>en</value></values></property>
    <property><name>Info</name><values arity="List" type="Property">
     <property><name>Identifier</name><values arity="Scalar" type="String"><value>urn:uuid:f930f4b3-cba2-42ba-ab26-d49438ab00d6</value></values></property>
-    <property><name>CreationDate</name><values arity="Scalar" type="Date"><value>2015-03-03T17:12:58Z</value></values></property>
+    <property><name>CreationDate</name><values arity="Scalar" type="Date"><value>2015-06-02T16:34:06Z</value></values></property>
     <property><name>Title</name><values arity="Scalar" type="String"><value>When (not) to migrate a PDF to PDF/A</value></values></property>
     <property><name>Creator</name><values arity="Scalar" type="String"><value>Johan van der Knijff</value></values></property>
     <property><name>Date</name><values arity="Scalar" type="String"><value>2015-03-03</value></values></property>

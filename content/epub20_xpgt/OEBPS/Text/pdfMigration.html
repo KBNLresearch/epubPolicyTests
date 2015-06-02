@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title></title>
+  <link href="../stylesheet.css" type="text/css" rel="stylesheet" />
+  <link href="../page-template.xpgt" type="application/vnd.adobe-page-template+xml" rel="stylesheet" />
+</head>
+
+<body>
+  <h1 id="when-not-to-migrate-a-pdf-to-pdfa">When (not) to migrate a PDF to PDF/A</h1>
+
+  <p>It is well-known that PDF documents can contain features that are preservation risks (e.g. see <a href="https://web.archive.org/web/20130515073645/http://libraries.stackexchange.com/questions/964/what-preservation-risks-are-associated-with-the-pdf-file-format">here</a> and <a href="http://wiki.opf-labs.org/display/TR/Portable+Document+Format">here</a>). Migration of existing <em>PDF</em>s to <em>PDF/A</em> is sometimes advocated as a strategy for mitigating these risks. However, the benefits of this approach are often questionable, and the migration process can also be quite risky in itself. As I often get questions on this subject, I thought it might be worthwhile to do a short write-up on this.</p><!--break-->
+
+  <h2 id="pdfa-is-a-profile"><em>PDF/A</em> is a profile</h2>
+
+  <p>First, it's important to stress that each of the <em>PDF/A</em> standards (<em>A-1</em>, <em>A-2</em> and <em>A-3</em>) are really just <em>profiles</em> within the <em>PDF</em> format. More specifically, <em>PDF/A-1</em> offers a subset of <a href="http://acroeng.adobe.com/PDFReference/PDF_1.4/PDF%20Reference%201.4.pdf"><em>PDF 1.4</em></a>, whereas <em>PDF/A-2</em> and <em>PDF/A-3</em> are based on <a href="http://acroeng.adobe.com/PDFReference/ISO32000/PDF32000-Adobe.pdf">the ISO 32000 version of <em>PDF 1.7</em></a>. What these profiles have in common, is that they prohibit some features (e.g. multimedia, encryption, interactive content) that are allowed in 'regular' <em>PDF</em>. Also, they narrow down the way other features are implemented, for example by requiring that all fonts are embedded in the document. This can be illustrated with the following simple Venn diagram below, which shows the feature sets of the aforementioned <em>PDF</em> flavours:</p>
+
+  <div class="figure">
+    <img alt="PDF Venn diagram" src="../Images/pdfVenn.png" />
+
+    <p class="caption">PDF Venn diagram</p>
+  </div>
+
+  <p>Here we see how <em>PDF/A-1</em> is a subset of <em>PDF 1.4</em>, which in turn is a subset of <em>PDF 1.7</em>. <em>PDF A/2</em> and <em>PDF A/3</em> (aggregated here as one entity for the sake of readability) are subsets of <em>PDF 1.7</em>, and include all the features of <em>PDF A/1</em>.</p>
+
+  <p>Keeping this in mind, it's easy to see that migrating an arbitrary <em>PDF</em> to <em>PDF/A</em> can result in problems.</p>
+
+  <h2 id="loss-alteration-during-migration">Loss, alteration during migration</h2>
+
+  <p>Suppose, as an example, that we have a <em>PDF</em> that contains a movie. This is prohibited in <em>PDF/A</em>, so migrating to <em>PDF/A</em> will simply result in the loss of the multimedia content. Another example are fonts: all fonts in a <em>PDF/A</em> document must be embedded. But what happens if the source <em>PDF</em> uses non-embedded fonts that are not available on the machine on which the migration is run? Will the migration tool exit with a warning, or will it silently use some alternative, perhaps similar font? And how do you check for this?</p>
+
+  <h2 id="complexity-and-effect-of-errors">Complexity and effect of errors</h2>
+
+  <p>Also, migrations like these typically involve a complete re-processing of the <em>PDF</em>'s internal structure. The format's complexity implies that there's a lot of potential for things to go wrong in this process. This is particularly true if the source <em>PDF</em> contains subtle errors, in which case the risk of losing information is very real (even though the original document may be perfectly readable in a viewer). Since we don't really have any tools for detecting such errors (i.e. a <a href="http://duff-johnson.com/wp-content/uploads/2014/01/PDFValidationDreamOrYawn.pdf">sufficiently reliable <em>PDF</em> validator</a>), these cases can be difficult to deal with. Some further considerations can be found <a href="http://web.archive.org/web/20130605142355/http://libraries.stackexchange.com/questions/1117/converting-invalid-pdfs-or-not-for-digital-preservation">here</a> (the context there is slightly different, but the risks are similar).</p>
+
+  <h2 id="digitised-vs-born-digital">Digitised vs born-digital</h2>
+
+  <p>The origin of the source <em>PDF</em>s may be another thing to take into account. If <em>PDF</em>s were originally created as part of a digitisation project (e.g. scanned books), the <em>PDF</em> is usually little more than a wrapper around a bunch of images, perhaps augmented by an OCR layer. Migrating such <em>PDF</em>s to <em>PDF/A</em> is pretty straightforward, since the source files are unlikely to contain any features that are not allowed in <em>PDF/A</em>. At the same time, this also means that the benefits of migrating such files to <em>PDF/A</em> are pretty limited, since the source <em>PDF</em>s weren't problematic to begin with!</p>
+
+  <p>The potential benefits <em>PDF/A</em> may be more obvious for a lot of born-digital content; however, for the reasons listed in the previous section, the migration is more complex, and there's just a lot more that can go wrong (see also <a href="http://qanda.digipres.org/19/what-are-the-benefits-and-risks-of-using-the-pdf-a-file-format?show=21#a21">here</a> for some additional considerations).</p>
+
+  <h2 id="conclusions">Conclusions</h2>
+
+  <p>Although migrating <em>PDF</em> documents to <em>PDF/A</em> may look superficially attractive, it is actually quite risky in practice, and it may easily result in unintentional data loss. Moreover, the risks increase with the number of preservation-unfriendly features, meaning that the migration is most likely to be successful for source <em>PDF</em>s that weren't problematic to begin with, which belies the very purpose of migrating to <em>PDF/A</em>. For specific cases, migration to <em>PDF/A</em> may still be a sensible approach, but the expected benefits should be weighed carefully against the risks. In the absence of stable, generally accepted tools for assessing the quality of <em>PDF</em>s (both source <em>and</em> destination!), it would also seem prudent to always keep the originals.</p>
+</body>
+</html>
