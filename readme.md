@@ -42,7 +42,7 @@ The script *analyse.sh* validates all epubs in the *build* directory with [Epubc
 |[epub20_foreign_resource_with_fallback_noID.epub](build/epub20_foreign_resource_with_fallback_noID.epub?raw=true)|2|Includes JP2 image, which is a format that is not on the list of Core Media Types; fallback defined in manifest, no identifier in content document|[3](epubcheckout/3.0.1/epub20_foreign_resource_with_fallback_noID.xml),[4](epubcheckout/4.0.0-alpha11/epub20_foreign_resource_with_fallback_noID.xml)|
 |[epub20_dtbook.epub](build/epub20_dtbook.epub?raw=true)|2|Includes Digital Talking Book content. Adapted from [threepress](https://code.google.com/p/threepress/source/browse/branches/bookworm-caching/library/test-data/data/hauy.epub?r=583), published under [BSD 3](http://opensource.org/licenses/BSD-3-Clause) license.|[3](epubcheckout/3.0.1/epub20_dtbook.xml),[4](epubcheckout/4.0.0-alpha11/epub20_dtbook.xml)|
 |[epub20_xpgt.epub](build/epub20_xpgt.epub?raw=true)|2|Includes style definitions as [Adobe Page Template](http://wiki.mobileread.com/wiki/XPGT).|[3](epubcheckout/3.0.1/epub20_xpgt.xml),[4](epubcheckout/4.0.0-alpha11/epub20_xpgt.xml)|
-|[epub20_missingfontresource.epub](build/epub20_xpgt.epub?raw=true)|2|CSS stylesheet contains reference to font resource that is not part of the package.|[3](epubcheckout/3.0.1/epub20_missingfontresource.xml),[4](epubcheckout/4.0.0-alpha11/epub20_missingfontresource.xml)|
+|[epub20_missingfontresource.epub](build/epub20_missingfontresource.epub?raw=true)|2|CSS stylesheet contains reference to font resource that is not part of the package.|[3](epubcheckout/3.0.1/epub20_missingfontresource.xml),[4](epubcheckout/4.0.0-alpha11/epub20_missingfontresource.xml)|
 
 
 ## How to add a new test file
