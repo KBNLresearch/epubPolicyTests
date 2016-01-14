@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jhove xmlns="http://hul.harvard.edu/ois/xml/ns/jhove" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="epubcheck" release="4.0.0-alpha11" date="2014-09-12">
- <date>2015-06-09T15:49:37+02:00</date>
- <repInfo uri="epub20_foreign_resource_with_fallback_noID.epub">
+<jhove xmlns="http://hul.harvard.edu/ois/xml/ns/jhove" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="epubcheck" release="4.0.1" date="2015-10-23">
+ <date>2016-01-14T16:31:27+01:00</date>
+ <repInfo uri="epub20_foreign_resource_with_fallback.epub">
   <created>2015-06-02T16:34:06Z</created>
   <format>application/epub+zip</format>
-  <version>2.0</version>
+  <version>2.0.1</version>
   <status>Well-formed</status>
   <mimeType>application/epub+zip</mimeType>
   <properties>
@@ -58,12 +58,6 @@
    <property>
     <name>References</name>
      <values arity="List" type="Property">
-      <property>
-       <name>Reference</name>
-       <values arity="Scalar" type="String">
-        <value>https://web.archive.org/web/20130515073645/http://libraries.stackexchange.com/questions/964/what-preservation-risks-are-associated-with-the-pdf-file-format</value>
-       </values>
-      </property>
       <property>
        <name>Reference</name>
        <values arity="Scalar" type="String">

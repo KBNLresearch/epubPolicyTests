@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jhove xmlns="http://hul.harvard.edu/ois/xml/ns/jhove" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="epubcheck" release="4.0.0-alpha11" date="2014-09-12">
- <date>2015-06-09T15:48:47+02:00</date>
- <repInfo uri="epub20_foreign_resource_with_fallback.epub">
+<jhove xmlns="http://hul.harvard.edu/ois/xml/ns/jhove" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="epubcheck" release="4.0.1" date="2015-10-23">
+ <date>2016-01-14T16:31:20+01:00</date>
+ <repInfo uri="epub20__invalid_entity.epub">
   <created>2015-06-02T16:34:06Z</created>
   <format>application/epub+zip</format>
-  <version>2.0</version>
-  <status>Well-formed</status>
+  <version>2.0.1</version>
+  <status>Not well-formed</status>
+  <messages>
+   <message>RSC-016, FATAL, [Fatal Error while parsing file 'An invalid XML character (Unicode: 0xb) was found in the element content of the document.'.], OEBPS/Text/pdfMigration.html (17-520)</message>
+   <message>RSC-005, ERROR, [Error while parsing file 'An invalid XML character (Unicode: 0xb) was found in the element content of the document.'.], OEBPS/Text/pdfMigration.html</message>
+   <message>RSC-012, ERROR, [Fragment identifier is not defined.], OEBPS/toc.ncx (30-82)</message>
+   <message>RSC-012, ERROR, [Fragment identifier is not defined.], OEBPS/toc.ncx (36-81)</message>
+   <message>RSC-012, ERROR, [Fragment identifier is not defined.], OEBPS/toc.ncx (42-75)</message>
+   <message>RSC-012, ERROR, [Fragment identifier is not defined.], OEBPS/toc.ncx (48-61)</message>
+  </messages>
   <mimeType>application/epub+zip</mimeType>
   <properties>
    <property>
     <name>CharacterCount</name>
     <values arity="Scalar" type="Long">
-     <value>4521</value>
+     <value>25</value>
     </values>
    </property>
    <property>
@@ -61,12 +69,6 @@
       <property>
        <name>Reference</name>
        <values arity="Scalar" type="String">
-        <value>https://web.archive.org/web/20130515073645/http://libraries.stackexchange.com/questions/964/what-preservation-risks-are-associated-with-the-pdf-file-format</value>
-       </values>
-      </property>
-      <property>
-       <name>Reference</name>
-       <values arity="Scalar" type="String">
         <value>http://wiki.opf-labs.org/display/TR/Portable+Document+Format</value>
        </values>
       </property>
@@ -80,24 +82,6 @@
        <name>Reference</name>
        <values arity="Scalar" type="String">
         <value>http://acroeng.adobe.com/PDFReference/ISO32000/PDF32000-Adobe.pdf</value>
-       </values>
-      </property>
-      <property>
-       <name>Reference</name>
-       <values arity="Scalar" type="String">
-        <value>http://duff-johnson.com/wp-content/uploads/2014/01/PDFValidationDreamOrYawn.pdf</value>
-       </values>
-      </property>
-      <property>
-       <name>Reference</name>
-       <values arity="Scalar" type="String">
-        <value>http://web.archive.org/web/20130605142355/http://libraries.stackexchange.com/questions/1117/converting-invalid-pdfs-or-not-for-digital-preservation</value>
-       </values>
-      </property>
-      <property>
-       <name>Reference</name>
-       <values arity="Scalar" type="String">
-        <value>http://qanda.digipres.org/19/what-are-the-benefits-and-risks-of-using-the-pdf-a-file-format?show=21#a21</value>
        </values>
       </property>
      </values>
