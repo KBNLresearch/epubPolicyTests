@@ -1,0 +1,19 @@
+.heading1
+{
+font-family:century;
+font-size:25px;
+color:#231F20;
+line-height: 1.7em;
+text-align: justify;
+width: 550px;
+}
+
+#h01
+{
+position:absolute;
+left:40px;
+top:20px;
+}
+
+.pos {position:absolute;
+}
