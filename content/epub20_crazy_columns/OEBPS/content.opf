@@ -3,7 +3,7 @@
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
     <dc:identifier id="BookId" opf:scheme="UUID">urn:uuid:65df5593-b4ab-4d06-9fb4-bb9916eb99e6</dc:identifier>
     <meta content="0.9.3" name="Sigil version"/>
-    <dc:title>Crazy Fixed Layout</dc:title>
+    <dc:title>Crazy Columns</dc:title>
     <dc:creator opf:role="aut">Johan van der Knijff</dc:creator>
     <dc:language>en</dc:language>
     <dc:date opf:event="modification">2016-04-01</dc:date>

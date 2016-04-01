@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jhove xmlns="http://hul.harvard.edu/ois/xml/ns/jhove" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="epubcheck" release="4.0.1" date="2015-10-23">
- <date>2016-04-01T13:17:51+02:00</date>
+ <date>2016-04-01T13:54:17+02:00</date>
  <repInfo uri="epub20_minimal_encryption.epub">
   <created>2015-06-02T16:34:06Z</created>
   <format>application/epub+zip</format>
