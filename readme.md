@@ -46,8 +46,7 @@ The script *analyse.sh* validates all epubs in the *build* directory with [Epubc
 |[epub20__invalid_entity](build/epub20_invalid_entity.epub?raw=true)|2|HTML contains illegal control character|[3](epubcheckout/3.0.1/epub20__invalid_entity.xml),[4](epubcheckout/4.0.1/epub20__invalid_entity.xml)|
 |[epub20_encryption_binary_content](build/epub20_encryption_binary_content.epub?raw=true)|2|Encrypted resource with illegal named entity|[3](epubcheckout/3.0.1/epub20_encryption_binary_content.xml),[4](epubcheckout/4.0.1/epub20_encryption_binary_content.xml)|
 |[epub20_crazy_fixed_layout](build/epub20_crazy_fixed_layout.epub?raw=true)|2|Uses CSS to place each line at fixed position on the page. This results in all sorts of problems after resizing the page and/or font. Valid (but dumb) *EPUB*.|[3](epubcheckout/3.0.1/epub20_crazy_fixed_layout.xml),[4](epubcheckout/4.0.1/epub20_crazy_fixed_layout.xml)|
-|[epub20_crazy_columns](build/epub20_crazy_columns.epub?raw=true)|2|Uses *<style>* tags to define columns. Another valid (but dumb) *EPUB*.|[3](epubcheckout/3.0.1/epub20_crazy_columns.xml),[4](epubcheckout/4.0.1/epub20_crazy_columns.xml)|
-
+|[epub20_crazy_columns](build/epub20_crazy_columns.epub?raw=true)|2|Uses *style* tags to define columns. Another valid (but dumb) *EPUB*.|[3](epubcheckout/3.0.1/epub20_crazy_columns.xml),[4](epubcheckout/4.0.1/epub20_crazy_columns.xml)|
 
 
 ## How to add a new test file
