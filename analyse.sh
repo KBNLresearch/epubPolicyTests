@@ -4,7 +4,7 @@
 
 # Location of epubcheck jars (update according to your own system)
 epubcheck3Jar=/usr/share/java/epubcheck.jar
-epubcheck4Jar=/home/johan/epubcheck-4.0.1/epubcheck.jar
+epubcheck4Jar=/home/johan/epubcheck/epubcheck.jar
 
 # ---- No need to edit anything below this line, unless you know what you're doing!
 

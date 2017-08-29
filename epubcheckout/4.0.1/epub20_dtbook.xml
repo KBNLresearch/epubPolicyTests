@@ -1,60 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jhove xmlns="http://hul.harvard.edu/ois/xml/ns/jhove" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="epubcheck" release="4.0.1" date="2015-10-23">
- <date>2016-04-04T14:11:02+02:00</date>
- <repInfo uri="epub20_dtbook.epub">
-  <created>2015-06-02T16:34:06Z</created>
-  <format>application/epub+zip</format>
-  <version>2.0.1</version>
-  <status>Well-formed</status>
-  <mimeType>application/epub+zip</mimeType>
-  <properties>
-   <property>
-    <name>Language</name>
-    <values arity="Scalar" type="String">
-     <value>en</value>
-    </values>
-   </property>
-   <property>
-    <name>Info</name>
-    <values arity="List" type="Property">
-     <property>
-      <name>Identifier</name>
-      <values arity="Scalar" type="String">
-       <value>C00000</value>
-      </values>
-     </property>
-     <property>
-      <name>CreationDate</name>
-      <values arity="Scalar" type="Date">
-       <value>2015-06-02T16:34:06Z</value>
-      </values>
-     </property>
-     <property>
-      <name>Title</name>
-      <values arity="Scalar" type="String">
-       <value>Valentin Haüy - the father of the education for the blind</value>
-      </values>
-     </property>
-     <property>
-      <name>Creator</name>
-      <values arity="Scalar" type="String">
-       <value>Beatrice Christensen Sköld</value>
-      </values>
-     </property>
-     <property>
-      <name>Date</name>
-      <values arity="Scalar" type="String">
-       <value>2007-08-09</value>
-      </values>
-     </property>
-     <property>
-      <name>Publisher</name>
-      <values arity="Scalar" type="String">
-       <value>TPB</value>
-      </values>
-     </property>
-    </values>
-   </property>
-  </properties>
- </repInfo>
+<jhove xmlns="http://hul.harvard.edu/ois/xml/ns/jhove"
+       date="2016-11-29"
+       name="epubcheck"
+       release="4.0.2">
+   <date>2017-08-29T12:19:36+02:00</date>
+   <repInfo uri="epub20_dtbook.epub">
+      <created>2015-06-02T16:34:06Z</created>
+      <format>application/epub+zip</format>
+      <version>2.0.1</version>
+      <status>Well-formed</status>
+      <mimeType>application/epub+zip</mimeType>
+      <properties>
+         <property>
+            <name>Language</name>
+            <values arity="Scalar" type="String">
+               <value>en</value>
+            </values>
+         </property>
+         <property>
+            <name>Info</name>
+            <values arity="List" type="Property">
+               <property>
+                  <name>Identifier</name>
+                  <values arity="Scalar" type="String">
+                     <value>C00000</value>
+                  </values>
+               </property>
+               <property>
+                  <name>CreationDate</name>
+                  <values arity="Scalar" type="Date">
+                     <value>2015-06-02T16:34:06Z</value>
+                  </values>
+               </property>
+               <property>
+                  <name>Title</name>
+                  <values arity="Scalar" type="String">
+                     <value>Valentin Haüy - the father of the education for the blind</value>
+                  </values>
+               </property>
+               <property>
+                  <name>Creator</name>
+                  <values arity="Scalar" type="String">
+                     <value>Beatrice Christensen Sköld</value>
+                  </values>
+               </property>
+               <property>
+                  <name>Date</name>
+                  <values arity="Scalar" type="String">
+                     <value>2007-08-09</value>
+                  </values>
+               </property>
+               <property>
+                  <name>Publisher</name>
+                  <values arity="Scalar" type="String">
+                     <value>TPB</value>
+                  </values>
+               </property>
+            </values>
+         </property>
+         <property>
+            <name>MediaTypes</name>
+            <values arity="Array" type="String">
+               <value>image/jpeg</value>
+               <value>text/css</value>
+               <value>application/x-dtbook+xml</value>
+               <value>application/x-dtbncx+xml</value>
+            </values>
+         </property>
+      </properties>
+   </repInfo>
 </jhove>

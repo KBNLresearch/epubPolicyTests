@@ -1,101 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jhove xmlns="http://hul.harvard.edu/ois/xml/ns/jhove" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="epubcheck" release="4.0.1" date="2015-10-23">
- <date>2016-04-04T14:11:35+02:00</date>
- <repInfo uri="epub20_xpgt.epub">
-  <created>2015-06-02T16:34:06Z</created>
-  <format>application/epub+zip</format>
-  <version>2.0.1</version>
-  <status>Well-formed</status>
-  <mimeType>application/epub+zip</mimeType>
-  <properties>
-   <property>
-    <name>CharacterCount</name>
-    <values arity="Scalar" type="Long">
-     <value>4526</value>
-    </values>
-   </property>
-   <property>
-    <name>Language</name>
-    <values arity="Scalar" type="String">
-     <value>en</value>
-    </values>
-   </property>
-   <property>
-    <name>Info</name>
-    <values arity="List" type="Property">
-     <property>
-      <name>Identifier</name>
-      <values arity="Scalar" type="String">
-       <value>urn:uuid:f930f4b3-cba2-42ba-ab26-d49438ab00d6</value>
-      </values>
-     </property>
-     <property>
-      <name>CreationDate</name>
-      <values arity="Scalar" type="Date">
-       <value>2015-06-02T16:34:06Z</value>
-      </values>
-     </property>
-     <property>
-      <name>Title</name>
-      <values arity="Scalar" type="String">
-       <value>When (not) to migrate a PDF to PDF/A</value>
-      </values>
-     </property>
-     <property>
-      <name>Creator</name>
-      <values arity="Scalar" type="String">
-       <value>Johan van der Knijff</value>
-      </values>
-     </property>
-     <property>
-      <name>Date</name>
-      <values arity="Scalar" type="String">
-       <value>2015-03-03</value>
-      </values>
-     </property>
-    </values>
-   </property>
-   <property>
-    <name>References</name>
-     <values arity="List" type="Property">
-      <property>
-       <name>Reference</name>
-       <values arity="Scalar" type="String">
-        <value>http://wiki.opf-labs.org/display/TR/Portable+Document+Format</value>
-       </values>
-      </property>
-      <property>
-       <name>Reference</name>
-       <values arity="Scalar" type="String">
-        <value>http://acroeng.adobe.com/PDFReference/PDF_1.4/PDF%20Reference%201.4.pdf</value>
-       </values>
-      </property>
-      <property>
-       <name>Reference</name>
-       <values arity="Scalar" type="String">
-        <value>http://acroeng.adobe.com/PDFReference/ISO32000/PDF32000-Adobe.pdf</value>
-       </values>
-      </property>
-      <property>
-       <name>Reference</name>
-       <values arity="Scalar" type="String">
-        <value>http://duff-johnson.com/wp-content/uploads/2014/01/PDFValidationDreamOrYawn.pdf</value>
-       </values>
-      </property>
-      <property>
-       <name>Reference</name>
-       <values arity="Scalar" type="String">
-        <value>http://web.archive.org/web/20130605142355/http://libraries.stackexchange.com/questions/1117/converting-invalid-pdfs-or-not-for-digital-preservation</value>
-       </values>
-      </property>
-      <property>
-       <name>Reference</name>
-       <values arity="Scalar" type="String">
-        <value>http://qanda.digipres.org/19/what-are-the-benefits-and-risks-of-using-the-pdf-a-file-format?show=21#a21</value>
-       </values>
-      </property>
-     </values>
-    </property>
-   </properties>
-  </repInfo>
- </jhove>
+<jhove xmlns="http://hul.harvard.edu/ois/xml/ns/jhove"
+       date="2016-11-29"
+       name="epubcheck"
+       release="4.0.2">
+   <date>2017-08-29T12:20:10+02:00</date>
+   <repInfo uri="epub20_xpgt.epub">
+      <created>2015-06-02T16:34:06Z</created>
+      <format>application/epub+zip</format>
+      <version>2.0.1</version>
+      <status>Well-formed</status>
+      <mimeType>application/epub+zip</mimeType>
+      <properties>
+         <property>
+            <name>CharacterCount</name>
+            <values arity="Scalar" type="Long">
+               <value>4526</value>
+            </values>
+         </property>
+         <property>
+            <name>Language</name>
+            <values arity="Scalar" type="String">
+               <value>en</value>
+            </values>
+         </property>
+         <property>
+            <name>Info</name>
+            <values arity="List" type="Property">
+               <property>
+                  <name>Identifier</name>
+                  <values arity="Scalar" type="String">
+                     <value>urn:uuid:f930f4b3-cba2-42ba-ab26-d49438ab00d6</value>
+                  </values>
+               </property>
+               <property>
+                  <name>CreationDate</name>
+                  <values arity="Scalar" type="Date">
+                     <value>2015-06-02T16:34:06Z</value>
+                  </values>
+               </property>
+               <property>
+                  <name>Title</name>
+                  <values arity="Scalar" type="String">
+                     <value>When (not) to migrate a PDF to PDF/A</value>
+                  </values>
+               </property>
+               <property>
+                  <name>Creator</name>
+                  <values arity="Scalar" type="String">
+                     <value>Johan van der Knijff</value>
+                  </values>
+               </property>
+               <property>
+                  <name>Date</name>
+                  <values arity="Scalar" type="String">
+                     <value>2015-03-03</value>
+                  </values>
+               </property>
+            </values>
+         </property>
+         <property>
+            <name>References</name>
+            <values arity="List" type="Property">
+               <property>
+                  <name>Reference</name>
+                  <values arity="Scalar" type="String">
+                     <value>http://wiki.opf-labs.org/display/TR/Portable+Document+Format</value>
+                  </values>
+               </property>
+               <property>
+                  <name>Reference</name>
+                  <values arity="Scalar" type="String">
+                     <value>http://acroeng.adobe.com/PDFReference/PDF_1.4/PDF%20Reference%201.4.pdf</value>
+                  </values>
+               </property>
+               <property>
+                  <name>Reference</name>
+                  <values arity="Scalar" type="String">
+                     <value>http://acroeng.adobe.com/PDFReference/ISO32000/PDF32000-Adobe.pdf</value>
+                  </values>
+               </property>
+               <property>
+                  <name>Reference</name>
+                  <values arity="Scalar" type="String">
+                     <value>http://duff-johnson.com/wp-content/uploads/2014/01/PDFValidationDreamOrYawn.pdf</value>
+                  </values>
+               </property>
+               <property>
+                  <name>Reference</name>
+                  <values arity="Scalar" type="String">
+                     <value>http://web.archive.org/web/20130605142355/http://libraries.stackexchange.com/questions/1117/converting-invalid-pdfs-or-not-for-digital-preservation</value>
+                  </values>
+               </property>
+               <property>
+                  <name>Reference</name>
+                  <values arity="Scalar" type="String">
+                     <value>http://qanda.digipres.org/19/what-are-the-benefits-and-risks-of-using-the-pdf-a-file-format?show=21#a21</value>
+                  </values>
+               </property>
+            </values>
+         </property>
+         <property>
+            <name>MediaTypes</name>
+            <values arity="Array" type="String">
+               <value>application/x-dtbncx+xml</value>
+               <value>application/xhtml+xml</value>
+               <value>image/png</value>
+               <value>image/jpeg</value>
+               <value>text/css</value>
+               <value>application/vnd.adobe-page-template+xml</value>
+            </values>
+         </property>
+      </properties>
+   </repInfo>
+</jhove>
